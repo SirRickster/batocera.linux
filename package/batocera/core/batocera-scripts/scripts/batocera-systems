@@ -797,6 +797,23 @@ systems = {
     # ---------- Oric Atmos ---------- #
     "oricatmos": { "name": "Oric Atmos", "biosFiles": [{ "md5": "a330779c42ad7d0c4ac6ef9e92788ec6", "file": "bios/Oric/basic11.rom" },
                                                        { "md5": "c888b36bf0fc222c3585c3fabe556d21", "file": "bios/Oric/colour.rom" }] },
+
+    # ---------- ZX Spectrum ---------- #
+    "zxspectrum": { "name": "ZX Spectrum", "biosFiles":[
+                                                            { "md5": "4c42a2f075212361c3117015b107ff68", "file": "bios/zxspectrum/48.rom" },
+                                                            { "md5": "85fede415f4294cc777517d7eada482e", "file": "bios/zxspectrum/spec128uk.rom" },
+                                                            { "md5": "16d2255516597e8d6df032724b8a076d", "file": "bios/zxspectrum/spec128uk_4.02.rom" },
+                                                            { "md5": "84aef735da122d55e41a33455c7c3506", "file": "bios/zxspectrum/spec128esp-v1.rom" },
+                                                            { "md5": "4f9a7ad491f0872124c9f2ef04a882f3", "file": "bios/zxspectrum/spec128esp-v2.rom" },
+                                                            { "md5": "238f77692156a5c49d20c0aa2862e8bb", "file": "bios/zxspectrum/plus2uk.rom" },
+                                                            { "md5": "43cf648e27efc9be8186bb7049505d79", "file": "bios/zxspectrum/plus2esp.rom" },
+                                                            { "md5": "1fff14aeca8e1dd3670142982cc6bb36", "file": "bios/zxspectrum/plus2fra.rom" },
+                                                            { "md5": "7e00ed3562abfd188d0d4da03e80bc0a", "file": "bios/zxspectrum/plus2a.rom" },
+                                                            { "md5": "52d130178c1106fef765b5f119fb43bc", "file": "bios/zxspectrum/plus2aesp.rom" },
+                                                            { "md5": "05de80a055b5e7866f55769db0584d6e", "file": "bios/zxspectrum/plus3.rom" },
+                                                            { "md5": "990dfe9d37b48595f5befe0e4ff4b7c6", "file": "bios/zxspectrum/plus3espv40.rom" },
+                                                            { "md5": "52d130178c1106fef765b5f119fb43bc", "file": "bios/zxspectrum/plus3espv41.rom" }] }, 
+                                                                                                              
 }
 
 class BiosStatus:

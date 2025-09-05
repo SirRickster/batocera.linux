@@ -1905,6 +1905,7 @@ zxspectrum:
       fuse: { requireAnyOf: [BR2_PACKAGE_LIBRETRO_FUSE] }
     clk:
       clk: { requireAnyOf: [BR2_PACKAGE_CLK], incompatible_extensions: [ 7z ] }
+      zesarux: { requireAnyOf: [BR2_PACKAGE_ZESARUX], incompatible_extensions: [ zip, 7z ] }
   comment_en: |
     ## Input Devices ##
 
